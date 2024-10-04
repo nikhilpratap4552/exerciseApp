@@ -1,0 +1,22 @@
+
+.link{
+    text-decoration: none;
+    color: #4d0e7c;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .link:hover,
+  .link:active {
+    background: linear-gradient(90deg, #ff05f7, #9c09a1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 18px rgba(244, 241, 241, 0.8);
+  }
+  
+  .active {
+    background-color: #7309a1;
+    color: aliceblue;
+  }

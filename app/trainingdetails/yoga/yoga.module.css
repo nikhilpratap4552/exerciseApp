@@ -1,0 +1,176 @@
+
+.yogamain{
+    max-width: 38rem;
+    margin: 2rem auto;
+    font-family: 'Lora', serif; /* Elegant serif font */
+    background-color: #f0f8f5; /* Soft greenish background for a calming effect */
+    color: #333;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    
+}
+.yoga{
+    max-width: 40rem;
+    margin: 2rem auto;
+  display: flex;
+   align-content: center;
+
+}
+.t1{
+    /* color: #5cbdb9; */
+    color: #2ECC40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.t2{
+    color: #666;
+}
+.t3{
+    color: cadetblue;
+
+}
+.yoga p span{
+    font-size: 200%;
+    font-weight: bolder;
+    
+    margin: 2rem auto;
+}
+.yoga p{
+    margin: 2rem auto;
+   
+}
+.yaga h1{
+    color: rgb(135, 144, 17);
+    background: transparent;
+}
+.yaga p{
+    
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+.imgg{
+    border-radius: 50%;
+    
+}
+.cllas{
+    max-width: 38rem;
+    margin: 2rem auto;
+    font-family: 'Lora', serif; /* Elegant serif font */
+    background-color: #f0f8f5; /* Soft greenish background for a calming effect */
+    color: #333;
+    align-content: center;
+    margin-top: -4rem;
+
+}
+.cllas h1{
+    background: transparent;
+    color: #18c471;
+}
+.cll{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+.gif1{
+    background: url("../../../public/yoga/Girl\ doing\ yoga.gif") no-repeat ;
+    
+    width: 180px;
+    height: 255px;
+    background-size:100%;
+    position: relative;
+    bottom: 0;
+    left: 28%;
+    /* -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 38s linear infinite; */
+}
+
+.teach{
+    max-width: 38rem;
+    margin: 2rem auto;
+    font-family: 'Lora', serif; /* Elegant serif font */
+    background-color: #f0f8f5; /* Soft greenish background for a calming effect */
+    color: #333;
+    align-content: center;
+}
+.teach h2{
+    color: darkslategray;
+    text-align: center;
+}
+.teach h3{
+    color: cornflowerblue;
+    text-align: center;
+}
+.teacher{
+    max-width: 38rem;
+    margin: 2rem auto;
+    font-family: 'Lora', serif; /* Elegant serif font */
+    background-color: #f0f8f5; /* Soft greenish background for a calming effect */
+    color: #333;
+    align-content: center;
+    justify-content: center;
+}
+.teacherpic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.classes{
+    max-width: 38rem;
+    margin: 2rem auto;
+    font-family: 'Lora', serif; /* Elegant serif font */
+    background-color: #eaf6ed; /* Soft greenish background for a calming effect */
+    color: #3b8723;
+    align-content: center;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+}
+.classes p{
+    text-align: center;
+    color: crimson;
+}
+.classes img{
+    padding-left: 8px;
+    margin-bottom: 8px;
+    border-radius: 23px;
+}
+.classitem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items:center;
+    /* justify-content: space-evenly; */
+}
+.style{
+    padding-top: 8px;
+    align-content: center;
+    
+    
+}
+.discrip{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 4px;
+    padding-left: 8px;
+    color: color-mix(in srgb, rgb(232, 10, 10) , rgb(70, 145, 30) );
+}
+.btn{
+    font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #34a980;
+ 
+  border-radius: 13px;
+  margin-left: 2rem;
+
+  
+}
+.btn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #f0f8f5;
+}
+

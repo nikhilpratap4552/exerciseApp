@@ -1,0 +1,35 @@
+.pose-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pose-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pose-img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #4caf50;
+  }
+  h4{
+    color: #4caf50;
+  }
+  .steps-list {
+    padding-left: 20px;
+    list-style-type: decimal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }

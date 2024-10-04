@@ -1,0 +1,78 @@
+/* Basic styling for the app */
+.app {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .app-header {
+    background: linear-gradient(to right, #e55572, #6a82fb);
+    padding: 40px;
+    
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .app-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .workouts-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .workouts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .workout-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .workout-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .workout-img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  h3,h4 {
+    font-size: 1.5rem;
+    color: #fc5c7d;
+  }
+  
+  .steps-list {
+    padding-left: 20px;
+    list-style-type: decimal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .app-footer {
+    background-color: #6a82fb;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
